@@ -1,0 +1,23 @@
+url: https://etc5523-2026.github.io/etc5523-assignment-4-abhignatippala/
+template:
+  bootstrap: 5
+  bslib:
+    primary: "#2C4B8E"
+    bg: "#EDE0CC"
+    fg: "#1A1A1A"
+    base_font: {google: "Source Sans 3"}
+
+reference:
+- title: Launch the app
+  contents:
+  - run_app
+- title: Exploring Water Quality
+  desc: Functions to summarise water quality data and create plots for further analysis.
+  contents:
+  - summarise_exceedance
+  - compare_sites
+  - plot_exceedance
+- title: Data
+  contents:
+  - beach_samples
+  - sydney_rainfall

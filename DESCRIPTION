@@ -1,0 +1,31 @@
+Package: beachrain
+Title: Explore How Rain Affects Water Quality at Sydney Swim Sites
+Version: 0.1.0
+Authors@R:
+    person("Abhigna", "Tippala", email = "atip0003@student.monash.edu",
+           role = c("aut", "cre"))
+Description: Provides Beachwatch NSW enterococci samples from 77 Sydney swim
+    sites (2015 to 2025) matched to rainfall in the previous 72 hours,
+    functions that summarise and plot how often samples exceed bacteria
+    thresholds after different amounts of rain, and a 'shiny' app that helps
+    swimmers judge how much rain changes the water at their beach.
+License: MIT + file LICENSE
+URL: https://etc5523-2026.github.io/etc5523-assignment-4-abhignatippala/,
+    https://github.com/ETC5523-2026/etc5523-assignment-4-abhignatippala
+BugReports: https://github.com/ETC5523-2026/etc5523-assignment-4-abhignatippala/issues
+Depends:
+    R (>= 4.1.0)
+Imports:
+    bslib,
+    dplyr,
+    ggplot2,
+    shiny
+Suggests:
+    knitr,
+    quarto,
+    rmarkdown
+VignetteBuilder: quarto
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1

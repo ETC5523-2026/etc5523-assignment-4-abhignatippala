@@ -1,0 +1,63 @@
+:root {
+  --beige: #EDE0CC;     
+  --paper: #F7F0E4;     
+  --periwinkle: #8FA8D9; 
+  --cobalt: #2C4B8E;    
+  --ink: #1A1A1A;       
+  --taupe: #6B5D52;     
+}
+
+.bslib-page-title, .navbar {
+  background-color: var(--cobalt) !important;
+  color: #FFFFFF !important;
+  border-bottom: 3px solid var(--ink);
+}
+
+.bslib-sidebar-layout > .sidebar,
+.card, .bslib-value-box {
+  background-color: var(--paper) !important;
+}
+.card, .bslib-value-box {
+  border: 1.5px solid var(--ink) !important;
+}
+
+.purpose {
+  border-left: 5px solid var(--cobalt);
+  background: #FFFFFF;
+  padding: 0.75rem 0.9rem;
+  line-height: 1.45;
+}
+
+.help {
+  color: var(--taupe);
+  font-size: 0.95rem;
+}
+
+.interpretation {
+  border-left: 5px solid var(--periwinkle);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+}
+
+.shiny-output-error-validation {
+  color: var(--ink);
+  background: var(--paper);
+  border: 1.5px dashed var(--cobalt);
+  padding: 1rem;
+}
+
+.guide .card-header {
+  background-color: var(--cobalt);
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.guide p { line-height: 1.55; }
+.guide .card-header {
+  background-color: var(--cobalt);
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.guide p { line-height: 1.55; }
+.bslib-value-box p { font-size: 0.9rem; color: var(--taupe); margin-bottom: 0; }

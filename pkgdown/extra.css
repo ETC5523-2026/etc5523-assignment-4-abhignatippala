@@ -1,0 +1,73 @@
+:root {
+  --beige: #EDE0CC;      /* page background */
+  --paper: #F7F0E4;      /* lighter panels: code, tables */
+  --periwinkle: #8FA8D9; /* soft accent */
+  --cobalt: #2C4B8E;     /* menu bar, links */
+  --ink: #1A1A1A;        /* text and outlines */
+  --taupe: #6B5D52;      /* secondary text */
+  --flower: #E8C35A;     /* small highlight */
+}
+
+body {
+  background-color: var(--beige);
+  color: var(--ink);
+}
+
+nav.navbar,
+nav.navbar.bg-light,
+nav.navbar.bg-dark,
+nav.navbar.bg-primary {
+  background-color: var(--cobalt) !important;
+  border-bottom: 3px solid var(--ink);
+}
+nav.navbar .navbar-brand,
+nav.navbar .nav-link,
+nav.navbar .nav-text,
+nav.navbar .version,
+nav.navbar .text-muted {
+  color: #FFFFFF !important;
+}
+nav.navbar .nav-link:hover,
+nav.navbar .nav-link.active {
+  color: var(--flower) !important;
+}
+nav.navbar .navbar-toggler-icon { filter: invert(1); }
+
+h1, h2, h3, h4 { color: var(--ink); }
+h2 {
+  border-bottom: 3px solid var(--periwinkle);
+  padding-bottom: 0.25rem;
+}
+
+/* Links in cobalt */
+a { color: var(--cobalt); }
+a:hover { color: var(--ink); }
+
+pre, .sourceCode, code {
+  background-color: var(--paper) !important;
+}
+pre {
+  border: 1.5px solid var(--ink);
+  border-radius: 0.5rem;
+}
+.table, table {
+  background-color: var(--paper);
+  --bs-table-bg: var(--paper);
+}
+
+aside h2, .sidebar h2 {
+  border-bottom: none;
+  color: var(--cobalt);
+}
+.text-muted, small { color: var(--taupe) !important; }
+
+nav.navbar input[type="search"] {
+  background-color: var(--paper);
+  color: var(--ink);
+  border: 1.5px solid var(--ink);
+}
+
+footer {
+  border-top: 3px solid var(--periwinkle);
+  color: var(--taupe);
+}
