@@ -22,7 +22,7 @@ their beach compares with other nearby beaches.
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("ETC5523-2026/YOUR-REPO-NAME")
+remotes::install_github("ETC5523-2026/etc5523-assignment-4-abhignatippala")
 ```
 
 ## Launch the app
@@ -71,8 +71,8 @@ downloads the raw files and reproduces the package data.
 
 ## Generative AI declaration
 
-**Generative AI declaration:** I used Claude (Anthropic) for some parts
-of the package development, mainly to get help with the Shiny app, CSS
+Generative AI declaration: I used Claude (Anthropic) for some parts of
+the package development, mainly to get help with the Shiny app, CSS
 styling, package configuration and a few technical aspects of the
 documentation. I used its suggestions as a starting point and made my
 own changes to the code, app layout, title, wording and colour theme. I
