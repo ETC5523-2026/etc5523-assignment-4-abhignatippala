@@ -2,5 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
-docs
 inst/doc
+vignettes/*.html
+vignettes/*_files
+vignettes/.quarto
+.DS_Store
